@@ -1,0 +1,21 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.board {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.pix {
+    border: 2px;
+}
