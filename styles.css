@@ -1,21 +1,26 @@
-.page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
 }
+body {
+    background-color: aliceblue;
+}
+
 
 .title {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.board {
+#board {
     display: flex;
-    height: 500px;
-    width: 500px;
-    border: 2px solid black;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 100px auto ;
+    border: 2px solid rgb(179, 143, 143);
+    box-shadow: 10px 10px;
+    width: 70%;
 }
 
-.pix {
-    border: 2px;
+.cell {
+    border: 1px solid whitesmoke;
 }
